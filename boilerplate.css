@@ -170,8 +170,10 @@ label {}
 
 /* All input elements, rarely useful for general-purpose styling */
 input {}
-/* Input elements that share a similar look and similar styling capabilities */
+/* `textarea` and `input` elements that share a similar look and similar styling
+capabilities */
 /* - common styling */
+textarea,
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -185,6 +187,7 @@ input[type="month"],
 input[type="week"],
 input[type="time"] {}
 /* - individual styling */
+textarea {}
 input[type="text"] {}
 input[type="password"] {}
 input[type="email"] {}
@@ -219,8 +222,6 @@ button.secondary,
 input[type="reset"] {}
 button.secondary[disabled],
 input[type="reset"][disabled] {}
-
-textarea {}
 
 datalist {}
 select {}
