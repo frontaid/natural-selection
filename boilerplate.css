@@ -168,8 +168,9 @@ label {}
 ::placeholder {}
 :focus::placeholder {}
 
-/* All input elements, rarely useful for general-purpose styling */
-input {}
+/* Overall styling, e.g. vertical spacing */
+input, textarea, select, button {}
+
 /* `textarea` and `input` elements that share a similar look and similar styling
 capabilities */
 /* - common styling */
