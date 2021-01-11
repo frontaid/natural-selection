@@ -224,6 +224,12 @@ input[type="file"] {}
 input[type="color"] {}
 input[type="range"] {}
 
+select {}
+optgroup {}
+option {}
+option:checked {}
+datalist {}
+
 button,
 input[type="submit"],
 input[type="reset"] {}
@@ -234,12 +240,6 @@ button.secondary,
 input[type="reset"] {}
 button.secondary[disabled],
 input[type="reset"][disabled] {}
-
-datalist {}
-select {}
-optgroup {}
-option {}
-option:checked {}
 
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:
