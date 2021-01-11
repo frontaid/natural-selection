@@ -14,12 +14,14 @@ Ordering is roughly based on how common certain elements or element groups are.
 
 
 ## Instructions
+
 1. Download the [raw CSS](https://raw.githubusercontent.com/frontaid/natural-selection/main/boilerplate.css)
 1. Move it into your code base
 1. Evolve it according to your needs
 
 
 ## Browser Compatibility
+
 All modern browsers and almost all browsers still in use today should be more than capable of handling Natural Selection.
 
 Natural Selection is mostly based on element, attribute, and pseudo-class selectors.
@@ -29,16 +31,17 @@ In that case, Natural Selection provides ways to detect and/or overcome lacking 
 
 
 ## Contribute
+
 Please create an issue when you have a suggestion.
-Note that the goal of this project is to provide a useful boilerplate for 80% of the global CSS styling.
+Note that the goal of this project is to provide a useful and minimal boilerplate for global CSS styling.
 It is *not* the goal to add every single element or every possible element/attribute/pseudo-class combination.
 
 
 ## Questions and Answers
 
-**Why is this named "Natural Selection"?**  
-This is a collection of CSS *selectors*. And given the limited number of HTML elements and
-attributes, the list came about quite *naturally*.
+**Why is this called "Natural Selection"?**  
+This is a collection of CSS *selectors*.
+And given the limited number of HTML elements and attributes, the list came about quite *naturally*.
 
 **Why are there no selectors for `div` and `span`?**  
 Both `div` and `span` are very generic. It does not really make sense to apply any *global* styling
