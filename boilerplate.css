@@ -5,7 +5,7 @@ Universal
 /* Apply styling to all elements (including their `:before` and `:after` pseudo-
 elements). One common use of this selector is to apply a custom `box-sizing`,
 for example as explained here: https://css-tricks.com/?page_id=175473 */
-*, *:before, *:after {}
+*, *::before, *::after {}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
