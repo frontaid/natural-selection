@@ -234,7 +234,7 @@ option:checked {}
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:
 1) You may need to add the `interacted` class to forms yourself
-2) You may need to add the `touched` class to form elements yourself
+2) You may need to add the `touched` class to form fields yourself
 3) `:user-invalid` is a working draft and not supported by any browser (yet)
 4) `:-moz-ui-invalid` is non-standard and only works in Firefox
 Form validation error messages will appear (in capable browsers) regardless of
