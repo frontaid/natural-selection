@@ -250,10 +250,13 @@ interacted with. Note that:
 Form validation error messages will appear (in capable browsers) regardless of
 this styling. You can omit 1) and 2) and still have working forms. Perfect
 example of progressive enhancement. */
+/* Applies to invalid forms */
 form.interacted:invalid {}
-form.interacted :invalid,
-form .touched:invalid,
-:user-invalid,
+/* Applies to invalid form fields. You would need to repeat your declarations
+for the following three groups of selectors individually. Browsers completely
+ignore any rule that contains a selector they do not know. */
+form.interacted :invalid, form .touched:invalid {}
+:user-invalid {}
 :-moz-ui-invalid {}
 
 output {}
