@@ -247,7 +247,7 @@ input[type="reset"][disabled] {}
 interacted with. Note that:
 1) You may need to add the `interacted` class to forms yourself
 2) You may need to add the `touched` class to form fields yourself
-3) `:user-invalid` is a working draft and not supported by any browser (yet)
+3) `:user-invalid` is a working draft and not yet supported by most browsers
 4) `:-moz-ui-invalid` is non-standard and only works in Firefox
 Form validation error messages will appear (in capable browsers) regardless of
 this styling. You can omit 1) and 2) and still have working forms. Perfect
