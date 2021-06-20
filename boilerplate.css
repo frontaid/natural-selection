@@ -171,7 +171,7 @@ Forms
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 fieldset {}
-fieldset[disabled] {}
+fieldset:disabled {}
 legend {}
 
 form {}
@@ -235,13 +235,13 @@ datalist {}
 button,
 input[type="submit"],
 input[type="reset"] {}
-button[disabled],
-input[type="submit"][disabled],
-input[type="reset"][disabled] {}
+button:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled {}
 button.secondary,
 input[type="reset"] {}
-button.secondary[disabled],
-input[type="reset"][disabled] {}
+button.secondary:disabled,
+input[type="reset"]:disabled {}
 
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:
