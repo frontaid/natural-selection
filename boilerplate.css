@@ -233,15 +233,11 @@ option:checked {}
 datalist {}
 
 button,
-input[type="submit"],
-input[type="reset"] {}
+input[type="submit"] {}
 button:disabled,
-input[type="submit"]:disabled,
-input[type="reset"]:disabled {}
-button.secondary,
-input[type="reset"] {}
-button.secondary:disabled,
-input[type="reset"]:disabled {}
+input[type="submit"]:disabled {}
+button.secondary {}
+button.secondary:disabled {}
 
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:

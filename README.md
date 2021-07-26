@@ -43,10 +43,6 @@ It is *not* the goal to add every single element or every possible element/attri
 This is a collection of CSS *selectors*.
 And given the limited number of HTML elements and attributes, the list came about quite *naturally*.
 
-**Why are there no selectors for `div` and `span`?**  
-Both `div` and `span` are very generic. It does not really make sense to apply any *global* styling
-to them. If it does make sense in your specific use case, just add them yourself.
-
 **What is element `X` used for?**  
 Please read MDN's
 [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
@@ -54,3 +50,15 @@ Please read MDN's
 **What element(s) are matched by the selector `X`?**  
 Please read MDN's
 [CSS selectors reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors).
+
+
+## Notable Omissions
+
+### `div`, `span`
+Both `div` and `span` are very generic. It does not really make sense to apply any *global* styling
+to them. If it does make sense in your specific use case, just add them yourself.
+
+### Reset Buttons
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset):
+"You should usually avoid including reset buttons in your forms. They're rarely useful, and are instead more likely to frustrate users who click them by mistake [...]."
+Also refer to [WebAIM](https://webaim.org/techniques/forms/controls#button) or [Nielsen Norman Group](https://www.nngroup.com/articles/reset-and-cancel-buttons/).
