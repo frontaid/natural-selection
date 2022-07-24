@@ -286,6 +286,8 @@ as follows:
 :focus:not(:focus-visible) {}
 :focus-visible {}
 
+[inert], [inert] * {}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Media queries
